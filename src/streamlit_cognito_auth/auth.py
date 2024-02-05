@@ -297,3 +297,6 @@ class CognitoAuthenticator:
 
     def get_username(self):
         return st.session_state["auth_username"]
+
+    def get_group(self):
+        return st.session_state["user_cognito_groups"]
