@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="streamlit-cognito-auth",
-    version="1.2.0",
+    name="streamlit-cognito-auth-modified",
+    version="1.2.1",
     packages=find_packages("src"),
     package_dir={"": "src"},
     include_package_data=True,
@@ -12,12 +12,12 @@ setup(
         "streamlit >= 1.17.0",
         "extra_streamlit_components >= 0.1.56",
     ],
-    author="Sarawin Khemmachotikun",
-    author_email="khemmachotikun.s@gmail.com",
-    description="A Streamlit component for authenticating users with AWS Cognito",
+    author="Makram JENAYAH",
+    author_email="makram.jenayah.pro@gmail.com",
+    description="A Streamlit component for authenticating users with AWS Cognito and get group list",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/pop-srw/streamlit-cognito-auth",
+    url="https://github.com/makramjenayah/streamlit-cognito-auth",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
